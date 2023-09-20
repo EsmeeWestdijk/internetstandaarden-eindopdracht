@@ -1,0 +1,54 @@
+
+header{ 
+  background-color: #8C0303;  
+}
+
+body{ 
+background-color:#FAFFFF;
+color:black;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div{ 
+    display:inline-flex
+
+}
+div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+figure div{
+    display:inline-flex;
+    justify-content: left;
+}
+header li{ 
+    color:#8C0303
+}
+a:link{
+    color:#8C0303
+}
+a:visited{
+    color:#400101; 
+}
+
+header ul {
+    list-style-type: none;
+    display: flex; 
+    justify-content:space-evenly;
+    flex: wrap;
+    gap: 1em;
+}
+
+footer{
+    display: flex;
+    justify-content:left;
+    flex: wrap; 
+}
+
+
+img{
+    border-style: solid;
+    border-color: black;
+
+    padding: 1em }
