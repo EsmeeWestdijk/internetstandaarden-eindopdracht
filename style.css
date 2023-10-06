@@ -1,54 +1,177 @@
-
-header{ 
-  background-color: #8C0303;  
+img video iframe{
+    max-width: 100%;
 }
 
-body{ 
-background-color:#FAFFFF;
-color:black;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+header{
+padding: 1em;
+padding: 1em;
+background-image: url('images/foto_banner_2.png' );
+background-size:90%;
+background-repeat: no-repeat;
+background-position: center;
+ }
+
+header a{
+    color:#8C0303;
+    text-decoration: none;
+    background-color: beige; 
+    border-style: solid;
+    border-radius: 3em;
+    padding: 1em;  
+    transition: all 500ms ease;
 }
 
-div{ 
-    display:inline-flex
-
-}
-div{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-figure div{
-    display:inline-flex;
-    justify-content: left;
-}
-header li{ 
-    color:#8C0303
-}
-a:link{
-    color:#8C0303
-}
-a:visited{
-    color:#400101; 
-}
-
-header ul {
+header ul{
     list-style-type: none;
     display: flex; 
     justify-content:space-evenly;
-    flex: wrap;
+    flex:content;
     gap: 1em;
 }
 
-footer{
+
+main h1{
     display: flex;
-    justify-content:left;
-    flex: wrap; 
+    justify-content: center;
+}
+body{ 
+background-color:#FAFFFF;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+box-sizing: border-box;
 }
 
 
-img{
-    border-style: solid;
-    border-color: black;
+a:hover{
+    background-color:rosybrown;
+}
 
-    padding: 1em }
+a:focus{
+    background-color:lightcoral;
+}
+
+a:active{
+    background-color:rosybrown;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+section.logo-dansmariekes{
+    display: flex;
+    justify-content:center
+}
+
+section.fotos_home{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:beige;
+    border-radius: 5em;
+    border-color: #8C0303;
+    border-style:ridge;
+    margin: 2em;
+
+}
+
+article.homepagina-tekst{
+    background-color: beige;
+    padding: 1em;
+    border-radius: 1em;
+    border-style: outset;
+    margin: 1em;
+}
+
+
+
+article h3{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+section.fotorij{
+    background-color: beige;
+    display: flex;
+    flex: wrap;
+    justify-content: space-evenly;
+    border-style:dashed;
+    border-color:#8C0303;
+    border-radius: 5em;
+    margin: 1em;
+}
+
+
+
+section.videorij2-4-6{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: beige;
+    border-radius: 5em;
+    margin: 1em;
+    border-style: outset;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+section.videorij1-3-5{ 
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #8C0303;
+    border-radius: 5em;
+    margin: 1em;
+    border-style: outset;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+
+
+iframe {
+    border: none;
+    }
+
+
+section.playlistrij1-3{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#8C0303;
+    border-radius: 5em;
+    margin: 1em;
+}
+
+section.playlistrij2-4{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:beige;
+    border-radius: 5em;
+    border-style:dashed;
+    border-color: #8C0303;
+    margin: 1em;
+}
+
+footer{
+    background-color: #8C0303;
+    padding: 1em;
+    border-style: outset;
+    list-style-type: none;
+    display: flex; 
+    justify-content:space-evenly;
+    flex:content;
+    gap: 1em;
+
+}
+
+footer a{
+    color:#8C0303;
+    text-decoration: none;
+    background-color: beige; 
+    border-style: solid;
+    border-radius: 3em;
+    transition: all 500ms ease;
+    padding: 1em;
+
+}
