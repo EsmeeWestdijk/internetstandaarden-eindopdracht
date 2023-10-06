@@ -6,10 +6,11 @@ header{
 padding: 1em;
 padding: 1em;
 background-image: url('images/foto_banner_2.png' );
-background-size:90%;
+background-size:100%;
 background-repeat: no-repeat;
 background-position: center;
  }
+
 
 header a{
     color:#8C0303;
@@ -17,8 +18,16 @@ header a{
     background-color: beige; 
     border-style: solid;
     border-radius: 3em;
-    padding: 1em;  
-    transition: all 500ms ease;
+    padding: 0.5em;  
+
+}
+
+header li{
+    transition: all 500ms ease;  
+}
+
+header li:hover{
+transform: scale(180%) rotate(200deg);
 }
 
 header ul{
@@ -34,8 +43,9 @@ main h1{
     display: flex;
     justify-content: center;
 }
+
 body{ 
-background-color:#FAFFFF;
+background-color:rgb(247, 247, 238);
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 box-sizing: border-box;
 }
@@ -58,23 +68,32 @@ h1,h2,h3,h4,h5,h6{
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-section.logo-dansmariekes{
+.logo-dansmariekes{
     display: flex;
-    justify-content:center
+    justify-content:center;
+    
 }
 
-section.fotos_home{
+.fotos_home{
     display: flex;
     justify-content: space-evenly;
     background-color:beige;
     border-radius: 5em;
-    border-color: #8C0303;
+    border-color: #8C0303; 
     border-style:ridge;
     margin: 2em;
 
 }
 
-article.homepagina-tekst{
+.fotos_home img{
+    transition: all 800ms ease;
+}
+
+.fotos_home img:active{
+    transform: scale(150%);
+}
+
+.homepagina-tekst{
     background-color: beige;
     padding: 1em;
     border-radius: 1em;
@@ -83,28 +102,33 @@ article.homepagina-tekst{
 }
 
 
-
 article h3{
     display: flex;
     justify-content: center;
 }
 
 
-
-section.fotorij{
+.fotorij{
     background-color: beige;
     display: flex;
-    flex: wrap;
     justify-content: space-evenly;
     border-style:dashed;
     border-color:#8C0303;
     border-radius: 5em;
     margin: 1em;
+
 }
 
+.fotorij img{
+    transition: all 500ms ease;
+}
 
+.fotorij img:hover{
+    transform: scale(125%);
+    
+}
 
-section.videorij2-4-6{
+.videorij2-4-6{
     display: flex;
     justify-content: space-evenly;
     background-color: beige;
@@ -116,7 +140,8 @@ section.videorij2-4-6{
     font-weight: bold;
 }
 
-section.videorij1-3-5{ 
+
+.videorij1-3-5{ 
     display: flex;
     justify-content: space-evenly;
     background-color: #8C0303;
@@ -129,13 +154,12 @@ section.videorij1-3-5{
 }
 
 
-
 iframe {
     border: none;
     }
 
 
-section.playlistrij1-3{
+.playlistrij1-3{
     display: flex;
     justify-content: space-evenly;
     background-color:#8C0303;
@@ -143,7 +167,17 @@ section.playlistrij1-3{
     margin: 1em;
 }
 
-section.playlistrij2-4{
+.playlistrij1-3 img{
+    transition: all 500ms ease;
+}
+
+.playlistrij1-3 img:hover{
+    transform: scale(150%);
+}
+
+
+
+.playlistrij2-4{
     display: flex;
     justify-content: space-evenly;
     background-color:beige;
@@ -153,9 +187,18 @@ section.playlistrij2-4{
     margin: 1em;
 }
 
+.playlistrij2-4 img{
+    transition: all 500ms ease;
+}
+
+.playlistrij2-4 img:hover{
+    transform: scale(150%);
+}
+
+
 footer{
     background-color: #8C0303;
-    padding: 1em;
+    padding: 0.5;
     border-style: outset;
     list-style-type: none;
     display: flex; 
@@ -172,6 +215,11 @@ footer a{
     border-style: solid;
     border-radius: 3em;
     transition: all 500ms ease;
-    padding: 1em;
-
+    padding: 0.5em;
+    transition: 500ms ease;
 }
+
+footer a:hover{
+    transform: scale(180%) rotate(200deg);
+}
+
