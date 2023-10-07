@@ -27,7 +27,7 @@ header li{
 }
 
 header li:hover{
-transform: scale(180%) rotate(200deg);
+transform: scale(150%) rotate(330deg);
 }
 
 header ul{
@@ -82,7 +82,8 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
     border-color: #8C0303; 
     border-style:ridge;
     margin: 2em;
-
+    font-size: small;
+    font-weight: bold;
 }
 
 .fotos_home img{
@@ -90,15 +91,19 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 }
 
 .fotos_home img:active{
-    transform: scale(150%);
+    transform: scale(125%);
 }
+
+
 
 .homepagina-tekst{
     background-color: beige;
     padding: 1em;
     border-radius: 1em;
     border-style: outset;
-    margin: 1em;
+    margin: 2em;
+    padding-right: 25em;
+
 }
 
 
@@ -220,6 +225,6 @@ footer a{
 }
 
 footer a:hover{
-    transform: scale(180%) rotate(200deg);
+    transform: scale(125%) 
 }
 
