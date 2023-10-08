@@ -102,7 +102,7 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 }
 
 .fotos_home img:active{
-    transform: scale(125%);
+    transform: scale(1.5);
 }
 
 .homepagina-tekst{
@@ -138,7 +138,7 @@ article h3{
 }
 
 .fotorij img:hover{
-    transform: scale(125%);
+    transform: scale(1.25);
     
 }
 
@@ -186,7 +186,7 @@ iframe {
 }
 
 .playlistrij1-3 img:hover{
-    transform: scale(150%);
+    transform: scale(1.5);
 }
 
 
@@ -206,13 +206,13 @@ iframe {
 }
 
 .playlistrij2-4 img:hover{
-    transform: scale(150%);
+    transform: scale(1.5);
 }
 
 
 footer{
     background-color: #8C0303;
-    padding: 0.5;
+    padding: 0.5em;
     border-style: outset;
     list-style-type: none;
     display: flex; 
@@ -234,5 +234,5 @@ footer a{
 }
 
 footer a:hover{
-    transform: scale(125%);
+    transform: scale(1.25);
 }
