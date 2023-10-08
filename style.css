@@ -22,12 +22,23 @@ header a{
 
 }
 
-header li{
-    transition: all 500ms ease;  
-}
 
 header li:hover{
-transform: scale(150%) rotate(330deg);
+animation-name: rotate;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
 }
 
 header ul{
@@ -93,8 +104,6 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 .fotos_home img:active{
     transform: scale(125%);
 }
-
-
 
 .homepagina-tekst{
     background-color: beige;
@@ -225,6 +234,5 @@ footer a{
 }
 
 footer a:hover{
-    transform: scale(125%) 
+    transform: scale(125%);
 }
-
